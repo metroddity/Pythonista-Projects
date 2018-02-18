@@ -4,7 +4,7 @@ import random
 def powerBall():
 	#highest number that can be selected for the white balls
 	to = 69
-	#highest number that can be selected for the red balls
+	#highest number that can be selected for the red ball
 	powerball = 26
 	#amount of white balls i.e. numbers
 	numbers = 5
@@ -18,8 +18,8 @@ def powerBall():
 
 def megaMillions():
 	#same process as the powerball function but with different ranges for the white numbers and mega number
-	to = 75
-	mega = 15
+	to = 70
+	mega = 25
 	numbers = 5
 	
 	numbersPick = random.sample(list(range(1, to+1)), numbers)
